@@ -1,0 +1,17 @@
+{
+  "pods": [
+  {
+    "name": "POD-1",
+    "containers": [
+    {
+      "hostname": "mongo.gundam.local",
+      "image": "mongo",
+      "containerfile": "TEST",
+      "network_mode": "host",
+      "ports": "4000:4000/tcp",
+      "privledged": true,
+      "volumes": []
+    }]
+  }
+]}
+
